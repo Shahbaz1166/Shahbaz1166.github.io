@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Under Construction</title>
+    <style>
+        /* Modern CSS Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #2d3436;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        .status-icon {
+            font-size: 60px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            animation: pulse 2s infinite;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #636e72;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-bar {
+            background-color: #dfe6e9;
+            border-radius: 10px;
+            height: 8px;
+            width: 100%;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            background-color: #0984e3;
+            height: 100%;
+            width: 70%; /* Adjust percentage as needed */
+            border-radius: 10px;
+            animation: slide 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(150%); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="status-icon">⚙️</div>
+        <h1>Under Construction</h1>
+        <p>We are currently working hard to bring you a better experience. Stay tuned, we'll be back shortly!</p>
+        
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+        
+        <p style="font-size: 0.85rem; color: #b2bec3;">Thank you for your patience.</p>
+    </div>
+
+</body>
+</html>
